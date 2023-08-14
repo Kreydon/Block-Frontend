@@ -4,6 +4,11 @@ header {
     justify-content: space-between;
 }
 
+.logo img {
+    width: 150px;
+    height: 75px;
+}
+
 header div .img-avatar img {
     height: 200px;
 }
@@ -25,4 +30,4 @@ header .avatar-publicar, header .avatar-publicar .avatar {
 header .avatar-publicar .avatar .img-avatar img {
     height: 50px;
     border-radius: 50%;
-}
+}   
