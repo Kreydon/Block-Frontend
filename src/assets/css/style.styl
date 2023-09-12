@@ -97,20 +97,36 @@ html
                         font-family: "iconos"
                         content: "\e908"
                         font-size: 45px
-    nav
-        padding: 15px 0px
-        background: #22bce0
-        box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.2);
-        ul
+    .nav_triangulado
+        display: flex
+        .cuadrado
+            width: 15px
+            height: 46px
+            background: white
+        .triangulo
+            width: 0px
+            height: 0px
+            border-left: 8px solid white
+            border-top: 23px solid #22bce0
+            border-bottom: 23px solid #22bce0
+            box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.2);
+        nav
+            padding: 15px 0px
+            background: #22bce0
+            box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.2);
+            flex-grow: 1
             display: flex
-            li
-                margin-right: 35px
-                a
-                    color: white
-                    text-decoration: none
-                    font-weight: bold
-            li:hover
-                background: rgba(0,0,0,0.1)
+            ul
+                display: flex
+                li
+                    margin-right: 30px
+                    margin-left: 5px 
+                    a
+                        color: white
+                        text-decoration: none
+                        font-weight: bold
+                li:hover
+                    background: rgba(0,0,0,0.1)
     section
         display: flex
         flex-wrap: wrap
